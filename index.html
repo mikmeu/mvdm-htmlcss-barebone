@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="{{ app.request.locale|split('_')[0] }}">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:url" content="">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="">
+        <meta property="og:site_name" content="">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="top-header">
+            <div class="logo-container">
+                <div class="logo"></div>
+                <h1 class="site-title">Site title</h1>
+            </div>
+            <div class="nav-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-content">
+            <div class="page">
+                <div class="content">
+                    <h1>Heading 1</h1>
+                    <p>Paragraph <br/>New line with <a href="#">test link</a></p>
+                    <h2>Heading 2</h2>
+                    <p>Paragraph <strong>strong</strong></p>
+                    <h3>Heading 3</h3>
+                    <p>Paragraph <em>displaying</em> <code>.grid .grid-five</code></p>
+                    <div class="grid grid-five">
+                        <div class="grid-cell-span-three-start">One (span one) <code>.grid-cell-span-three-start</code></div>
+                        <div>Two</div>
+                        <div>Three</div>
+                        <div class="grid-cell-span-two-start">Four (span two) <code>.grid-cell-span-two-start</code></div>
+                        <div>Five</div>
+                    </div>
+                    <h4>Heading 4</h4>
+                    <a class="btn" href="#">A button</a>
+                    <button class="btn">Button button</button>
+                    <ul>
+                        <li>List</li>
+                    </ul>
+                    <ol>
+                        <li>Ordered list</li>
+                    </ol>
+                    <table>
+                        <thead>
+                            <tr><th>Head 1</th><th>Head 2</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Head 1</td><td>Head 2</td></tr>
+                        </tbody>
+                    </table>
+                    <blockquote>Blockquote</blockquote>
+                    <code class="code-block">test code</code>
+                    <p>TODO: iframe, img</p>
+                    <hr />    
+                    <h5>Heading 5</h5>
+                    <p>Paragraph</p>
+                </div>
+                <form class="form">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Input:</label>
+                        </div>
+                        <div class="form-col">
+                            <input class="form-input" value="input field" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Select:</label>
+                        </div>
+                        <div class="form-col">
+                            <select class="form-select">
+                                <option value="0">Select value</option>
+                                <option value="1">Some other value</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Textarea:</label>
+                        </div>
+                        <div class="form-col">
+                            <textarea class="form-textarea">Textarea</textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <button class="form-btn" type="submit">Submit</button>
+                        </div>
+                        <div class="form-col">
+                        </div>
+                    </div>
+                </form>
+            
+            </div>
+        </main>
+        <footer class="footer">&copy; 2022 MvdM Barebone</footer>
+    </body>
+</html>

@@ -1,0 +1,168 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family:'Open Sans',sans-serif;
+}
+/* OVERALL STYLES */
+.btn {
+
+}
+/* HEADER */
+.top-header {
+
+}
+.logo-container {
+
+}
+.nav-container {
+
+}
+/* NAVIGATION */
+.nav-list {
+
+}
+.nav-list li {
+
+}
+.nav-list li a {
+
+}
+.nav-list li a:hover {
+
+}
+.nav-list li a.active {
+
+}
+/* GRID */
+.grid {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 1em;
+}
+.grid-six {
+    grid-template-columns: repeat(6, 1fr);
+}
+.grid-five {
+    grid-template-columns: repeat(5, 1fr);
+}
+.grid-four {
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-three {
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-two {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cell-span-two-start {
+    grid-column-start:1;
+    grid-column-end:3;
+}
+.grid-cell-span-three-start {
+    grid-column-start:1;
+    grid-column-end:4;
+}
+
+/* FORM STYLES */
+.form {
+
+}
+.form-row {
+
+}
+.form-col {
+
+}
+.form-input {
+
+}
+.form-select {
+
+}
+.form-textarea {
+
+}
+.form-btn {
+
+}
+/* PAGE STYLES */
+.page h1 {
+
+}
+.page h2 {
+
+}
+/* CONTENT STYLES (INHERITS PAGE STYLES) */
+/* - CONTENT HEADING */
+.content h1 {
+
+}
+.content h2 {
+
+}
+.content h3 {
+
+}
+.content h4 {
+
+}
+.content h5 {
+
+}
+/* - CONTENT PARAGRAPH */
+.content p {
+
+}
+.content p a {
+
+}
+.content p a:hover {
+
+}
+/* - CONTENT LIST */
+.content ul, .content ol {
+
+}
+.content li {
+
+}
+/* - CONTENT TABLE */
+.content table {
+
+}
+.content tr {
+
+}
+.content td, .content th {
+
+}
+.content th {
+
+}
+/* - CONTENT MISC */
+.content blockquote {
+
+}
+.content iframe {
+
+}
+.content img {
+
+}
+.content code {
+    border:1px solid #333;
+    font-family:"Consolas",serif;
+    font-size:12px;
+    border-radius:5px;
+    padding:2px;
+}
+.content code.codeblock {
+
+}
+
+
+/* FOOTER */
+.footer {
+
+}
