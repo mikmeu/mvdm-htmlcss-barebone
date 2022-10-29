@@ -14,8 +14,20 @@
         <meta name="twitter:site" content="">
         <meta property="og:site_name" content="">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="mobile-menu.js"></script>
     </head>
     <body>
+        <div class="mobile-menu-container" style="display:none;" id="mobileMenu">
+            <nav class="mobile-menu">
+                <div class="mobile-menu-close" onclick="CloseMobileMenu()"><img src="icons/icons_close.svg" class="mobile-menu-close-icon" /> Close Menu</div>
+                <ul class="mobile-nav-list">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li> 
+                    <li><a href="#"><img src="icons/icons_user.svg" class="mobile-nav-icon" /></a></li>
+                    <li><a href="#"><img src="icons/icons_search.svg" class="mobile-nav-icon" /></a></li>
+                </ul>
+            </nav>
+        </div>
         <header class="top-header">
             <div class="logo-container">
                 <div class="logo">
@@ -25,17 +37,27 @@
             </div>
             <div class="nav-container">
                 <nav class="nav">
-                    <ul class="nav-list">
+                    <ul class="nav-list mobile-hide">
                         <li><a href="#" class="active">Home</a></li>
                         <li><a href="#">About</a></li>
+                        <li><a href="#"><img src="icons/icons_user.svg" class="nav-icon" /></a></li>
+                        <li><a href="#"><img src="icons/icons_search.svg" class="nav-icon" /></a></li>
+                    </ul>
+                    <ul class="nav-list mobile-view">
+                        <li><img src="icons/icons_menu.svg" class="nav-icon" onclick="OpenMobileMenu()" /></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main class="main-content">
             <div class="page">
+                <div class="overline">Overline</div>
+                <h1>Page Heading</h1>
+                <div class="message message-info"><img src="icons/icons_info.svg" class="message-icon" /> Info message <img src="icons/icons_close.svg" class="message-close-icon" /></div>
+                <div class="message message-error"><img src="icons/icons_error.svg" class="message-icon" /> Error message</div>
+                <div class="message message-check"><img src="icons/icons_check.svg" class="message-icon" /> Check message</div>
                 <div class="content">
-                    <h1>Heading 1</h1>
+                    <h1>Content Heading 1</h1>
                     <p>Paragraph <br/>New line with <a href="#">test link</a></p>
                     <h2>Heading 2</h2>
                     <p>Paragraph <strong>strong</strong></p>
@@ -66,8 +88,9 @@
                         </tbody>
                     </table>
                     <blockquote>Blockquote</blockquote>
-                    <code class="code-block">test code</code>
+                    <code class="code-block">test code<br/>new line</code>
                     <img src="https://via.placeholder.com/567x200.png" title="placeholder image" alt="placeholder image" />
+                    <div class="caption">Caption</div>
                     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <hr />    
                     <h5>Heading 5</h5>
